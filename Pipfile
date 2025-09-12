@@ -5,8 +5,8 @@ verify_ssl = true
 
 [[source]]
 name = "nexus"
-url = "http://${NEXUS_USER}:${NEXUS_PASSWORD}@nexus.tools.dtcloudhosting.com/repository/pipy-templates/simple"
-verify_ssl = false
+url = "https://${NEXUS_USER}:${NEXUS_PASSWORD}@nexus.tools.dtcloudhosting.com/repository/pipy-templates/simple"
+verify_ssl = true
 
 [requires]
 python_version = "3"

@@ -3,6 +3,11 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
+[[source]]
+name = "nexus"
+url = "http://${NEXUS_USER}:${NEXUS_PASSWORD}@nexus.tools.dtcloudhosting.com/repository/pipy-templates/simple"
+verify_ssl = false
+
 [requires]
 python_version = "3"
 
@@ -10,6 +15,7 @@ python_version = "3"
 constructs = "~=10.4.2"
 cdk8s = "~=2.70.13"
 cdk8s-plus-28 = "~=2.5.6"
+deployment-template =  {version = "==1.0.0", index = "nexus"}
 
 [dev-packages]
 

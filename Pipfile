@@ -6,7 +6,7 @@ verify_ssl = true
 [[source]]
 name = "nexus"
 url = "http://${NEXUS_USER}:${NEXUS_PASSWORD}@nexus.tools.dtcloudhosting.com/repository/pipy-templates/simple"
-verify_ssl = true
+verify_ssl = false
 
 [requires]
 python_version = "3"

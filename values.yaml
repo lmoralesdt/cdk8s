@@ -1,0 +1,4 @@
+namespace: my-namespace
+app_name: web-server
+replicas: 3
+image: custom-nginx-image:1.20

@@ -1,4 +1,4 @@
-namespace: my-namespace
-app_name: web-server
-replicas: 3
-image: custom-nginx-image:1.20
+namespace: default
+app_name: payment-chart-my-deployment
+replicas: 4
+image: nginx:1.25.2

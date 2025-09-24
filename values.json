@@ -2,5 +2,5 @@
     "namespace": "default",
     "app_name": "web-server",
     "replicas": 2,
-    "image": "nginx:1.25-alpine"
+    "image": "nginx"
 }

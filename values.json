@@ -1,6 +1,6 @@
 {
     "namespace": "default",
     "app_name": "web-server",
-    "replicas": 3,
+    "replicas": 2,
     "image": "nginx:1.25-alpine"
 }

@@ -1,5 +1,5 @@
 {
-    "namespace": "argocd",
+    "namespace": "default",
     "name": "nginx",
     "replicas": 3,
     "image": "nginx",

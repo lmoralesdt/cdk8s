@@ -1,7 +1,7 @@
 {
     "namespace": "default",
     "name": "nginx",
-    "replicas": 3,
+    "replicas": 2,
     "image": "nginx",
     "command": ["bash", "-c", "sleep infinity"]
 }

@@ -1,6 +1,7 @@
 {
-    "namespace": "default",
-    "app_name": "web-server",
-    "replicas": 2,
-    "image": "amoralesdt/argocdcustom:v6"
+    "namespace": "argocd",
+    "name": "nginx",
+    "replicas": 3,
+    "image": "nginx",
+    "command": ["bash", "-c", "sleep infinity"]
 }
